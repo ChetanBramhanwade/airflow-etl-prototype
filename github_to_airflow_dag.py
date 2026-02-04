@@ -14,7 +14,7 @@ def github_to_gcs():
     # 1️⃣ GitHub RAW CSV URL
     github_raw_url = (
         "https://raw.githubusercontent.com/"
-        "ChetanBramhanwade/airflow-etl-prototype/main/data/employees.csv"
+        "USERNAME/airflow-etl-prototype/main/data/employees.csv"
     )
 
     # 2️⃣ Read CSV from GitHub
@@ -74,6 +74,7 @@ with DAG(
         task_id="github_to_gcs",
         python_callable=github_to_gcs,
     )
+
 
 
 # ETL Pipeline: GitHub to Google Cloud Storage
