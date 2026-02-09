@@ -1,201 +1,101 @@
-emp_id,name,department,salary,country
-1,Emp1,IT,55000,IN
-2,Emp2,HR,42000,IN
-3,Emp3,Finance,60000,US
-4,Emp4,Sales,48000,UK
-5,Emp5,Marketing,50000,IN
-6,Emp6,IT,65000,US
-7,Emp7,HR,43000,IN
-8,Emp8,Finance,62000,UK
-9,Emp9,Sales,47000,US
-10,Emp10,Marketing,51000,IN
-11,Emp11,IT,56000,IN
-12,Emp12,HR,44000,US
-13,Emp13,Finance,63000,UK
-14,Emp14,Sales,49000,IN
-15,Emp15,Marketing,52000,US
-16,Emp16,IT,67000,UK
-17,Emp17,HR,45000,IN
-18,Emp18,Finance,64000,US
-19,Emp19,Sales,50000,UK
-20,Emp20,Marketing,53000,IN
-21,Emp21,IT,58000,US
-22,Emp22,HR,46000,UK
-23,Emp23,Finance,65000,IN
-24,Emp24,Sales,51000,US
-25,Emp25,Marketing,54000,UK
-26,Emp26,IT,69000,IN
-27,Emp27,HR,47000,US
-28,Emp28,Finance,66000,UK
-29,Emp29,Sales,52000,IN
-30,Emp30,Marketing,55000,US
-31,Emp31,IT,60000,UK
-32,Emp32,HR,48000,IN
-33,Emp33,Finance,67000,US
-34,Emp34,Sales,53000,UK
-35,Emp35,Marketing,56000,IN
-36,Emp36,IT,71000,US
-37,Emp37,HR,49000,UK
-38,Emp38,Finance,68000,IN
-39,Emp39,Sales,54000,US
-40,Emp40,Marketing,57000,UK
-41,Emp41,IT,62000,IN
-42,Emp42,HR,50000,US
-43,Emp43,Finance,69000,UK
-44,Emp44,Sales,55000,IN
-45,Emp45,Marketing,58000,US
-46,Emp46,IT,73000,UK
-47,Emp47,HR,51000,IN
-48,Emp48,Finance,70000,US
-49,Emp49,Sales,56000,UK
-50,Emp50,Marketing,59000,IN
-51,Emp51,IT,64000,US
-52,Emp52,HR,52000,UK
-53,Emp53,Finance,71000,IN
-54,Emp54,Sales,57000,US
-55,Emp55,Marketing,60000,UK
-56,Emp56,IT,75000,IN
-57,Emp57,HR,53000,US
-58,Emp58,Finance,72000,UK
-59,Emp59,Sales,58000,IN
-60,Emp60,Marketing,61000,US
-61,Emp61,IT,66000,UK
-62,Emp62,HR,54000,IN
-63,Emp63,Finance,73000,US
-64,Emp64,Sales,59000,UK
-65,Emp65,Marketing,62000,IN
-66,Emp66,IT,77000,US
-67,Emp67,HR,55000,UK
-68,Emp68,Finance,74000,IN
-69,Emp69,Sales,60000,US
-70,Emp70,Marketing,63000,UK
-71,Emp71,IT,68000,IN
-72,Emp72,HR,56000,US
-73,Emp73,Finance,75000,UK
-74,Emp74,Sales,61000,IN
-75,Emp75,Marketing,64000,US
-76,Emp76,IT,79000,UK
-77,Emp77,HR,57000,IN
-78,Emp78,Finance,76000,US
-79,Emp79,Sales,62000,UK
-80,Emp80,Marketing,65000,IN
-81,Emp81,IT,70000,US
-82,Emp82,HR,58000,UK
-83,Emp83,Finance,77000,IN
-84,Emp84,Sales,63000,US
-85,Emp85,Marketing,66000,UK
-86,Emp86,IT,81000,IN
-87,Emp87,HR,59000,US
-88,Emp88,Finance,78000,UK
-89,Emp89,Sales,64000,IN
-90,Emp90,Marketing,67000,US
-91,Emp91,IT,72000,UK
-92,Emp92,HR,60000,IN
-93,Emp93,Finance,79000,US
-94,Emp94,Sales,65000,UK
-95,Emp95,Marketing,68000,IN
-96,Emp96,IT,83000,US
-97,Emp97,HR,61000,UK
-98,Emp98,Finance,80000,IN
-99,Emp99,Sales,66000,US
-100,Emp100,Marketing,69000,UK
-101,Emp101,IT,71000,IN
-102,Emp102,HR,62000,US
-103,Emp103,Finance,81000,UK
-104,Emp104,Sales,67000,IN
-105,Emp105,Marketing,70000,US
-106,Emp106,IT,84000,UK
-107,Emp107,HR,63000,IN
-108,Emp108,Finance,82000,US
-109,Emp109,Sales,68000,UK
-110,Emp110,Marketing,71000,IN
-111,Emp111,IT,73000,US
-112,Emp112,HR,64000,UK
-113,Emp113,Finance,83000,IN
-114,Emp114,Sales,69000,US
-115,Emp115,Marketing,72000,UK
-116,Emp116,IT,86000,IN
-117,Emp117,HR,65000,US
-118,Emp118,Finance,84000,UK
-119,Emp119,Sales,70000,IN
-120,Emp120,Marketing,73000,US
-121,Emp121,IT,75000,UK
-122,Emp122,HR,66000,IN
-123,Emp123,Finance,85000,US
-124,Emp124,Sales,71000,UK
-125,Emp125,Marketing,74000,IN
-126,Emp126,IT,88000,US
-127,Emp127,HR,67000,UK
-128,Emp128,Finance,86000,IN
-129,Emp129,Sales,72000,US
-130,Emp130,Marketing,75000,UK
-131,Emp131,IT,77000,IN
-132,Emp132,HR,68000,US
-133,Emp133,Finance,87000,UK
-134,Emp134,Sales,73000,IN
-135,Emp135,Marketing,76000,US
-136,Emp136,IT,90000,UK
-137,Emp137,HR,69000,IN
-138,Emp138,Finance,88000,US
-139,Emp139,Sales,74000,UK
-140,Emp140,Marketing,77000,IN
-141,Emp141,IT,79000,US
-142,Emp142,HR,70000,UK
-143,Emp143,Finance,89000,IN
-144,Emp144,Sales,75000,US
-145,Emp145,Marketing,78000,UK
-146,Emp146,IT,92000,IN
-147,Emp147,HR,71000,US
-148,Emp148,Finance,90000,UK
-149,Emp149,Sales,76000,IN
-150,Emp150,Marketing,79000,US
-151,Emp151,IT,81000,UK
-152,Emp152,HR,72000,IN
-153,Emp153,Finance,91000,US
-154,Emp154,Sales,77000,UK
-155,Emp155,Marketing,80000,IN
-156,Emp156,IT,94000,US
-157,Emp157,HR,73000,UK
-158,Emp158,Finance,92000,IN
-159,Emp159,Sales,78000,US
-160,Emp160,Marketing,81000,UK
-161,Emp161,IT,83000,IN
-162,Emp162,HR,74000,US
-163,Emp163,Finance,93000,UK
-164,Emp164,Sales,79000,IN
-165,Emp165,Marketing,82000,US
-166,Emp166,IT,96000,UK
-167,Emp167,HR,75000,IN
-168,Emp168,Finance,94000,US
-169,Emp169,Sales,80000,UK
-170,Emp170,Marketing,83000,IN
-171,Emp171,IT,85000,US
-172,Emp172,HR,76000,UK
-173,Emp173,Finance,95000,IN
-174,Emp174,Sales,81000,US
-175,Emp175,Marketing,84000,UK
-176,Emp176,IT,98000,IN
-177,Emp177,HR,77000,US
-178,Emp178,Finance,96000,UK
-179,Emp179,Sales,82000,IN
-180,Emp180,Marketing,85000,US
-181,Emp181,IT,87000,UK
-182,Emp182,HR,78000,IN
-183,Emp183,Finance,97000,US
-184,Emp184,Sales,83000,UK
-185,Emp185,Marketing,86000,IN
-186,Emp186,IT,100000,US
-187,Emp187,HR,79000,UK
-188,Emp188,Finance,98000,IN
-189,Emp189,Sales,84000,US
-190,Emp190,Marketing,87000,UK
-191,Emp191,IT,89000,IN
-192,Emp192,HR,80000,US
-193,Emp193,Finance,99000,UK
-194,Emp194,Sales,85000,IN
-195,Emp195,Marketing,88000,US
-196,Emp196,IT,102000,UK
-197,Emp197,HR,81000,IN
-198,Emp198,Finance,100000,US
-199,Emp199,Sales,86000,UK
-200,Emp200,Marketing,89000,IN
+emp_id,emp_name,department,salary,country
+1,Chetan bramhanwade,IT,55000,IN
+2,chetan Bramhanwade,IT,56000,IN
+3,CHETAN bramhanwade,IT,57000,US
+4,Amit kumar,HR,42000,IN
+5,AMIT Kumar,HR,43000,IN
+6,amit kumar,HR,44000,US
+7,Rahul sharma,Finance,60000,US
+8,rahul Sharma,Finance,61000,UK
+9,RAHUL sharma,Finance,62000,IN
+10,Priya patil,Sales,48000,UK
+11,PRIYA Patil,Sales,49000,IN
+12,priya patil,Sales,50000,US
+13,Sneha joshi,Marketing,50000,IN
+14,SNEHA Joshi,Marketing,51000,IN
+15,sneha joshi,Marketing,52000,US
+16,Ankit verma,IT,65000,US
+17,ANKIT Verma,IT,66000,UK
+18,ankit verma,IT,67000,IN
+19,Rohit mehta,HR,43000,IN
+20,ROHIT Mehta,HR,44000,US
+21,rohit mehta,HR,45000,UK
+22,Neha singh,Finance,62000,UK
+23,NEHA Singh,Finance,63000,US
+24,neha singh,Finance,64000,IN
+25,Kunal deshpande,Sales,47000,US
+26,KUNAL Deshpande,Sales,48000,UK
+27,kunal deshpande,Sales,49000,IN
+28,Pooja kulkarni,Marketing,51000,IN
+29,POOJA Kulkarni,Marketing,52000,US
+30,pooja kulkarni,Marketing,53000,UK
+31,Sachin tendulkar,IT,67000,UK
+32,SACHIN Tendulkar,IT,68000,IN
+33,sachin tendulkar,IT,69000,US
+34,Vikas malhotra,HR,44000,IN
+35,VIKAS Malhotra,HR,45000,UK
+36,vikas malhotra,HR,46000,US
+37,Nikhil agrawal,Finance,63000,IN
+38,NIKHIL Agrawal,Finance,64000,US
+39,nikhil agrawal,Finance,65000,UK
+40,Swati mishra,Sales,49000,IN
+41,SWATI Mishra,Sales,50000,US
+42,swati mishra,Sales,51000,UK
+43,Manoj pawar,Marketing,52000,US
+44,MANOJ Pawar,Marketing,53000,IN
+45,manoj pawar,Marketing,54000,UK
+46,Deepak chavan,IT,69000,UK
+47,DEEPAK Chavan,IT,70000,IN
+48,deepak chavan,IT,71000,US
+49,Kiran joshi,HR,46000,IN
+50,KIRAN Joshi,HR,47000,US
+51,kiran joshi,HR,48000,UK
+52,Shubham kulkarni,Finance,65000,IN
+53,SHUBHAM Kulkarni,Finance,66000,US
+54,shubham kulkarni,Finance,67000,UK
+55,Ritu saxena,Sales,50000,UK
+56,RITU Saxena,Sales,51000,IN
+57,ritu saxena,Sales,52000,US
+58,Abhishek mishra,Marketing,53000,IN
+59,ABHISHEK Mishra,Marketing,54000,US
+60,abhishek mishra,Marketing,55000,UK
+61,Chetan bramhanwade,IT,58000,IN
+62,chetan Bramhanwade,IT,59000,US
+63,CHETAN Bramhanwade,IT,60000,UK
+64,Amit kumar,HR,45000,IN
+65,amit Kumar,HR,46000,US
+66,AMIT kumar,HR,47000,UK
+67,Rahul sharma,Finance,63000,IN
+68,rahul sharma,Finance,64000,US
+69,RAHUL Sharma,Finance,65000,UK
+70,Priya patil,Sales,52000,IN
+71,PRIYA patil,Sales,53000,US
+72,priya Patil,Sales,54000,UK
+73,Sneha joshi,Marketing,55000,IN
+74,sneha Joshi,Marketing,56000,US
+75,SNEHA joshi,Marketing,57000,UK
+76,Ankit verma,IT,68000,IN
+77,ankit Verma,IT,69000,US
+78,ANKIT verma,IT,70000,UK
+79,Rohit mehta,HR,48000,IN
+80,rohit Mehta,HR,49000,US
+81,ROHIT mehta,HR,50000,UK
+82,Neha singh,Finance,66000,IN
+83,neha Singh,Finance,67000,US
+84,NEHA singh,Finance,68000,UK
+85,Kunal deshpande,Sales,55000,IN
+86,kunal Deshpande,Sales,56000,US
+87,KUNAL deshpande,Sales,57000,UK
+88,Pooja kulkarni,Marketing,58000,IN
+89,pooja Kulkarni,Marketing,59000,US
+90,POOJA kulkarni,Marketing,60000,UK
+91,Sachin tendulkar,IT,71000,IN
+92,sachin Tendulkar,IT,72000,US
+93,SACHIN tendulkar,IT,73000,UK
+94,Vikas malhotra,HR,47000,IN
+95,vikas Malhotra,HR,48000,US
+96,VIKAS malhotra,HR,49000,UK
+97,Nikhil agrawal,Finance,68000,IN
+98,nikhil Agrawal,Finance,69000,US
+99,NIKHIL agrawal,Finance,70000,UK
+100,Chetan bramhanwade,IT,61000,IN
